@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
+  API_ID = int(os.environ.get("API_ID", "29346781"))
+  API_HASH = os.environ.get("API_HASH", "75fb004873db1864a09c71cd1307bfa8")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Filesavemaxrobot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "tnshort.net")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "aa20b48ce6c0eb337b3e979b6b4aeef8a7b26447")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [OWNER](https://t.me/Ai_botz_owner_bot)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [OWNER](https://t.me/vbkguru)
  
  AI DEVELOPERS PROJECT.
 
-[OPEN MENU](https://t.me/ai_botz_menu_bot)
+[OPEN MENU](https://t.me/sihagbots)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
